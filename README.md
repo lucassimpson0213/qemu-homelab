@@ -5,6 +5,7 @@ A lightweight “software homelab” using QEMU VMs on macOS:
 - Real-ish networking between VMs (socket backend)
 - SSH between hosts
 - A foundation to learn infra: DNS, routing, firewalls, nginx, postgres, etc.
+- uses cockpit to manage vm's and storage
 
 - at raspberry-pi-ip:9090
 
