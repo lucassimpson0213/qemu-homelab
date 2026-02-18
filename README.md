@@ -6,7 +6,6 @@
 
 <img width="1641" height="1307" alt="image" src="https://github.com/user-attachments/assets/348fd287-8f87-455d-a22d-0fbc6c51a840" />
 
-
 # Home‑Cloud (Concise Guide)
 
 A personal homelab platform that turns a few machines into a small self‑hosted cloud.
@@ -226,24 +225,9 @@ Building this teaches real cloud mechanics:
 
 This mirrors AWS EC2, Proxmox, and private cloud platforms.
 
----
-
-## Core Learning Goals
-
-* Linux system administration
-* networking
-* distributed systems
-* observability
-* reliability engineering
-* deployment automation
-
-The homelab becomes a safe environment to experiment, break systems, and rebuild them.
-
----
-
-## Conceptual Takeaway
 
 A server is not a device.
 
 > A server is a disposable process created from an image and attached to a network.
+
 
