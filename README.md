@@ -12,6 +12,7 @@ Currently the roadmap that is going to be supported is:
 if you would like more info go to the wiki
 
 [qemu-homelab-wiki](https://github.com/lucassimpson0213/sys-qemu-homelab/wiki)
+[rust bindings for libvirt](https://docs.rs/virt/latest/virt/)
 
 
 ****<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/6c40bbfc-f66f-407d-9f46-201767b05300" />
