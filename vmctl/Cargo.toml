@@ -1,0 +1,12 @@
+[package]
+name = "vmctl"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+hex = "0.4.3"
+pretty_assertions = "1.4.1"
+proptest = "1.10.0"
+rstest = "0.26.1"
+similar-asserts = "1.7.0"
+virt = "0.4.3"
