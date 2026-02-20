@@ -1,5 +1,3 @@
-#![cfg(all(test, feature = "std"))]
-
 use std::sync::Once;
 
 static INIT: Once = Once::new();
@@ -10,7 +8,7 @@ pub fn init() {
     });
 }
 
-pub mod prelude {
+pub mod prelude_add {
     pub use crate::tests::common::init;
     pub use hex::{decode as hex_decode, encode as hex_encode};
     pub use insta::{assert_debug_snapshot, assert_snapshot};
