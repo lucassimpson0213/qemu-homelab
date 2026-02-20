@@ -4,10 +4,17 @@ on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
+
     container:
-      image: rust:1.76-bullseye   # or your own image
+      image: rust:1.76-bullseye
+
+    defaults:
+      run:
+        working-directory: vmctl
+
     steps:
       - uses: actions/checkout@v4
+
       - run: rustc --version
       - run: cargo build --release
       - run: cargo test
